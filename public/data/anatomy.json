@@ -1,0 +1,162 @@
+[
+  {
+    "id": "mianat-001",
+    "imageRef": "mianat-001_mi007_f09.png",
+    "answer": "Actin pedestals",
+    "brick": "Enterobacteriaceae",
+    "category": "Histology & Cell Biology",
+    "explanation": "Enteropathogenic E. coli efface the microvilli and induce localized actin polymerization, forming characteristic actin pedestals beneath the attached bacteria, disrupting absorption."
+  },
+  {
+    "id": "mianat-002",
+    "imageRef": "mianat-002_mi010_f01.png",
+    "answer": "Flagellum",
+    "brick": "Bacterial Structure, Growth, and Staining",
+    "category": "Histology & Cell Biology",
+    "explanation": "The polar filament is a flagellum, a protein cylinder anchored in the cell envelope that rotates to propel the bacterium; adhesion is a role of pili/fimbriae, and conjugative transfer uses sex pili."
+  },
+  {
+    "id": "mianat-003",
+    "imageRef": "mianat-003_mi010_f02.png",
+    "answer": "Bacterial cell",
+    "brick": "Bacterial Structure, Growth, and Staining",
+    "category": "Histology & Cell Biology",
+    "explanation": "The absence of a nucleus with the nucleoid/circular DNA free in the cytoplasm, plus a capsule, cell wall, pili and flagellum, identifies this as a prokaryotic bacterial cell."
+  },
+  {
+    "id": "mianat-004",
+    "imageRef": "mianat-004_mi017_f04.png",
+    "answer": "Cord factor",
+    "brick": "Mycobacterium Tuberculosis and MAC",
+    "category": "Histology & Cell Biology",
+    "explanation": "Cord factor (trehalose dimycolate) causes M. tuberculosis to grow in the characteristic serpentine cords seen here and is toxic to mammalian cells while inhibiting neutrophil migration."
+  },
+  {
+    "id": "mianat-005",
+    "imageRef": "mianat-005_mi018_f05.png",
+    "answer": "Chlamydia inclusion",
+    "brick": "Atypical Bacteria",
+    "category": "Histology & Cell Biology",
+    "explanation": "Chlamydia species replicate inside a membrane-bound endosome (inclusion) within the host-cell cytoplasm, which enlarges as the bacteria multiply and can eventually dominate the cell volume."
+  },
+  {
+    "id": "mianat-006",
+    "imageRef": "mianat-006_mi018_f08.png",
+    "answer": "Chlamydia lysis",
+    "brick": "Atypical Bacteria",
+    "category": "Histology & Cell Biology",
+    "explanation": "At the end of the chlamydial cycle, reticulate bodies convert back to elementary bodies and the infected cell lyses, releasing infectious elementary bodies that go on to infect neighboring cells."
+  },
+  {
+    "id": "mianat-007",
+    "imageRef": "mianat-007_mi018_f09.png",
+    "answer": "Coiling phagocytosis",
+    "brick": "Atypical Bacteria",
+    "category": "Histology & Cell Biology",
+    "explanation": "Legionella pneumophila is a facultative intracellular pathogen taken up by macrophages via coiling phagocytosis; it then inhibits phagosome-lysosome fusion, allowing it to persist and replicate inside the phagocyte."
+  },
+  {
+    "id": "mianat-008",
+    "imageRef": "mianat-008_mi025_f03.png",
+    "answer": "CMV inclusion",
+    "brick": "Herpesviridae",
+    "category": "Histology & Cell Biology",
+    "explanation": "CMV massively enlarges infected cells (cyto = cell, megalo = large) and produces a large basophilic intranuclear inclusion with a surrounding clear halo, the classic 'owl's eye' inclusion."
+  },
+  {
+    "id": "mianat-009",
+    "imageRef": "mianat-009_mi032_f03.png",
+    "answer": "Clue cell",
+    "brick": "Normal Flora: Role in Health and Disease",
+    "category": "Histology & Cell Biology",
+    "explanation": "A vaginal epithelial cell coated with adherent bacteria (obscuring its borders) is a clue cell, the microscopic hallmark of bacterial vaginosis, typically due to Gardnerella vaginalis overgrowth."
+  },
+  {
+    "id": "mianat-010",
+    "imageRef": "mianat-010_mi032_f05.png",
+    "answer": "Eustachian tube",
+    "brick": "Normal Flora: Role in Health and Disease",
+    "category": "Gross Anatomy",
+    "explanation": "In young children the eustachian tube is shorter, narrower, and more horizontal, allowing nasopharyngeal flora to migrate into the middle ear and impairing drainage, which predisposes to acute otitis media."
+  },
+  {
+    "id": "mianat-011",
+    "imageRef": "mianat-011_mi038_f15.png",
+    "answer": "Coccidioides spherules",
+    "brick": "Geographically Defined Mycoses",
+    "category": "Histology & Cell Biology",
+    "explanation": "Giant thick-walled spherules filled with endospores are the diagnostic tissue form of Coccidioides."
+  },
+  {
+    "id": "mianat-012",
+    "imageRef": "mianat-012_mi040_f01.png",
+    "answer": "Epidermis",
+    "brick": "Fungal Skin Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "Dermatophytes feed on keratin found only in the stratum corneum, hair, and nails, so they remain limited to keratinized superficial layers and rarely cause deep or systemic disease."
+  },
+  {
+    "id": "mianat-013",
+    "imageRef": "mianat-013_mi041_f12.png",
+    "answer": "Tapeworm",
+    "brick": "Introduction to Parasitology",
+    "category": "Gross Anatomy",
+    "explanation": "Cestodes (tapeworms) have a scolex (head) and a chain of segments called proglottids; each mature proglottid is hermaphroditic, containing both male and female organs."
+  },
+  {
+    "id": "mianat-014",
+    "imageRef": "mianat-014_mi041_f16.png",
+    "answer": "Schistosoma",
+    "brick": "Introduction to Parasitology",
+    "category": "Histology & Cell Biology",
+    "explanation": "Adult schistosomes (blood flukes) are unusual among trematodes in having separate sexes; the male's gynecophoral canal holds the female during continuous mating."
+  },
+  {
+    "id": "mianat-015",
+    "imageRef": "mianat-015_mi042_f02.png",
+    "answer": "Naegleria fowleri",
+    "brick": "Protozoan Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "N. fowleri uniquely exists as trophozoite, transient flagellate, and cyst forms; it causes primary amebic meningoencephalitis."
+  },
+  {
+    "id": "mianat-016",
+    "imageRef": "mianat-016_mi042_f05.png",
+    "answer": "Toxoplasma cyst",
+    "brick": "Protozoan Infections",
+    "category": "Histology & Cell Biology",
+    "explanation": "T. gondii persists as bradyzoite-filled tissue cysts that reactivate when cell-mediated immunity wanes."
+  },
+  {
+    "id": "mianat-017",
+    "imageRef": "mianat-017_mi042_f13.png",
+    "answer": "Sandfly",
+    "brick": "Protozoan Infections",
+    "category": "Gross Anatomy",
+    "explanation": "Female phlebotomine sandflies transmit Leishmania spp.; mosquitoes transmit malaria and reduviid bugs transmit Chagas disease."
+  },
+  {
+    "id": "mianat-018",
+    "imageRef": "mianat-018_mi046_f06.png",
+    "answer": "Hookworm mouth",
+    "brick": "Helminths",
+    "category": "Histology & Cell Biology",
+    "explanation": "Hookworms (Ancylostoma duodenale shown; Necator americanus uses cutting plates) use these buccal teeth/plates to grip and lacerate the small-bowel mucosa, feeding on blood and causing iron-deficiency anemia in heavy infections."
+  },
+  {
+    "id": "mianat-019",
+    "imageRef": "mianat-019_mi046_f09.png",
+    "answer": "Charcot-Leyden crystals",
+    "brick": "Helminths",
+    "category": "Histology & Cell Biology",
+    "explanation": "These are Charcot-Leyden crystals, formed from galectin-10 released by degranulating eosinophils; they signal eosinophil-rich processes such as parasitic or allergic disease."
+  },
+  {
+    "id": "mianat-020",
+    "imageRef": "mianat-020_mi047_f02.png",
+    "answer": "Staphylococcus",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "category": "Histology & Cell Biology",
+    "explanation": "Gram-positive cocci that bunch into grape-like clusters are characteristic of Staphylococcus, which divides in multiple planes. Streptococci form chains, Neisseria form diplococci, and Bacillus/Clostridium are rods."
+  }
+]
