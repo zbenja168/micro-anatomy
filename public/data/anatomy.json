@@ -1,29 +1,5 @@
 [
   {
-    "id": "mianat-001",
-    "imageRef": "mianat-001_mi007_f09.png",
-    "answer": "Actin pedestals",
-    "brick": "Enterobacteriaceae",
-    "category": "Histology & Cell Biology",
-    "explanation": "Enteropathogenic E. coli efface the microvilli and induce localized actin polymerization, forming characteristic actin pedestals beneath the attached bacteria, disrupting absorption."
-  },
-  {
-    "id": "mianat-002",
-    "imageRef": "mianat-002_mi010_f01.png",
-    "answer": "Flagellum",
-    "brick": "Bacterial Structure, Growth, and Staining",
-    "category": "Histology & Cell Biology",
-    "explanation": "The polar filament is a flagellum, a protein cylinder anchored in the cell envelope that rotates to propel the bacterium; adhesion is a role of pili/fimbriae, and conjugative transfer uses sex pili."
-  },
-  {
-    "id": "mianat-003",
-    "imageRef": "mianat-003_mi010_f02.png",
-    "answer": "Bacterial cell",
-    "brick": "Bacterial Structure, Growth, and Staining",
-    "category": "Histology & Cell Biology",
-    "explanation": "The absence of a nucleus with the nucleoid/circular DNA free in the cytoplasm, plus a capsule, cell wall, pili and flagellum, identifies this as a prokaryotic bacterial cell."
-  },
-  {
     "id": "mianat-004",
     "imageRef": "mianat-004_mi017_f04.png",
     "answer": "Cord factor",
@@ -32,52 +8,12 @@
     "explanation": "Cord factor (trehalose dimycolate) causes M. tuberculosis to grow in the characteristic serpentine cords seen here and is toxic to mammalian cells while inhibiting neutrophil migration."
   },
   {
-    "id": "mianat-005",
-    "imageRef": "mianat-005_mi018_f05.png",
-    "answer": "Chlamydia inclusion",
-    "brick": "Atypical Bacteria",
-    "category": "Histology & Cell Biology",
-    "explanation": "Chlamydia species replicate inside a membrane-bound endosome (inclusion) within the host-cell cytoplasm, which enlarges as the bacteria multiply and can eventually dominate the cell volume."
-  },
-  {
-    "id": "mianat-006",
-    "imageRef": "mianat-006_mi018_f08.png",
-    "answer": "Chlamydia lysis",
-    "brick": "Atypical Bacteria",
-    "category": "Histology & Cell Biology",
-    "explanation": "At the end of the chlamydial cycle, reticulate bodies convert back to elementary bodies and the infected cell lyses, releasing infectious elementary bodies that go on to infect neighboring cells."
-  },
-  {
-    "id": "mianat-007",
-    "imageRef": "mianat-007_mi018_f09.png",
-    "answer": "Coiling phagocytosis",
-    "brick": "Atypical Bacteria",
-    "category": "Histology & Cell Biology",
-    "explanation": "Legionella pneumophila is a facultative intracellular pathogen taken up by macrophages via coiling phagocytosis; it then inhibits phagosome-lysosome fusion, allowing it to persist and replicate inside the phagocyte."
-  },
-  {
     "id": "mianat-008",
     "imageRef": "mianat-008_mi025_f03.png",
     "answer": "CMV inclusion",
     "brick": "Herpesviridae",
     "category": "Histology & Cell Biology",
     "explanation": "CMV massively enlarges infected cells (cyto = cell, megalo = large) and produces a large basophilic intranuclear inclusion with a surrounding clear halo, the classic 'owl's eye' inclusion."
-  },
-  {
-    "id": "mianat-009",
-    "imageRef": "mianat-009_mi032_f03.png",
-    "answer": "Clue cell",
-    "brick": "Normal Flora: Role in Health and Disease",
-    "category": "Histology & Cell Biology",
-    "explanation": "A vaginal epithelial cell coated with adherent bacteria (obscuring its borders) is a clue cell, the microscopic hallmark of bacterial vaginosis, typically due to Gardnerella vaginalis overgrowth."
-  },
-  {
-    "id": "mianat-010",
-    "imageRef": "mianat-010_mi032_f05.png",
-    "answer": "Eustachian tube",
-    "brick": "Normal Flora: Role in Health and Disease",
-    "category": "Gross Anatomy",
-    "explanation": "In young children the eustachian tube is shorter, narrower, and more horizontal, allowing nasopharyngeal flora to migrate into the middle ear and impairing drainage, which predisposes to acute otitis media."
   },
   {
     "id": "mianat-011",
@@ -152,11 +88,515 @@
     "explanation": "These are Charcot-Leyden crystals, formed from galectin-10 released by degranulating eosinophils; they signal eosinophil-rich processes such as parasitic or allergic disease."
   },
   {
-    "id": "mianat-020",
-    "imageRef": "mianat-020_mi047_f02.png",
+    "id": "mianat-021",
+    "imageRef": "mianat-021_brick_53_03.jpg",
+    "answer": "Acid-fast bacilli",
+    "category": "Lab & Diagnostics",
+    "brick": "Bacterial Structure, Growth, and Staining",
+    "explanation": "This is an acid-fast (Ziehl-Neelsen) stain. Acid-fast organisms such as Mycobacteria (and Nocardia) have large amounts of mycolic acids in their cell walls that resist acid-alcohol decolorization, so they stay bright red against the blue background."
+  },
+  {
+    "id": "mianat-022",
+    "imageRef": "mianat-022_brick_53_04.jpg",
+    "answer": "India ink stain",
+    "category": "Lab & Diagnostics",
+    "brick": "Bacterial Structure, Growth, and Staining",
+    "explanation": "Capsules do not bind most dyes, so they are shown by negative staining of the background with India ink (or nigrosine). The capsule appears as a clear halo around each cell. Capsules can contribute to a bacterium's ability to cause disease."
+  },
+  {
+    "id": "mianat-023",
+    "imageRef": "mianat-023_brick_53_05.jpg",
+    "answer": "Streptococci in chains",
+    "category": "Lab & Diagnostics",
+    "brick": "Bacterial Structure, Growth, and Staining",
+    "explanation": "Gram-positive cocci arranged in chains (short single-file lines) are characteristic of Streptococcus species. Staphylococcus forms grape-like clusters, Neisseria are gram-negative diplococci, E. coli is a gram-negative rod, and Mycobacteria are acid-fast rods."
+  },
+  {
+    "id": "mianat-024",
+    "imageRef": "mianat-024_brick_53_06.jpg",
+    "answer": "Staphylococci in clusters",
+    "category": "Lab & Diagnostics",
+    "brick": "Bacterial Structure, Growth, and Staining",
+    "explanation": "Gram-positive cocci that bunch together like grapes (clusters) are characteristic of Staphylococcus species. Streptococci form chains, Neisseria are gram-negative diplococci, E. coli is a gram-negative rod, and Nocardia forms branching filaments."
+  },
+  {
+    "id": "mianat-025",
+    "imageRef": "mianat-025_brick_55_05.jpg",
+    "answer": "Clue cells",
+    "category": "Lab & Diagnostics",
+    "brick": "Normal Flora: Role in Health and Disease",
+    "explanation": "Epithelial cells coated with Gardnerella vaginalis coccobacilli are clue cells, the diagnostic finding of bacterial vaginosis. BV causes a thin gray-white discharge with a fishy smell from released amines and typically less burning, itching and inflammation than vulvovaginal candidiasis."
+  },
+  {
+    "id": "mianat-026",
+    "imageRef": "mianat-026_brick_56_03.jpg",
     "answer": "Staphylococcus",
+    "category": "Lab & Diagnostics",
     "brick": "Gram-Positive and Negative Algorithms",
-    "category": "Histology & Cell Biology",
-    "explanation": "Gram-positive cocci that bunch into grape-like clusters are characteristic of Staphylococcus, which divides in multiple planes. Streptococci form chains, Neisseria form diplococci, and Bacillus/Clostridium are rods."
+    "explanation": "Gram-positive (purple) cocci bunched in grape-like clusters are characteristic of Staphylococcus spp. Streptococci form pairs or chains; Neisseria are gram-negative diplococci."
+  },
+  {
+    "id": "mianat-027",
+    "imageRef": "mianat-027_brick_56_04.jpg",
+    "answer": "Streptococcus",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "Gram-positive cocci arranged in short, single-file chains are characteristic of Streptococcus spp., in contrast to the grape-like clusters of Staphylococcus."
+  },
+  {
+    "id": "mianat-028",
+    "imageRef": "mianat-028_brick_56_05.jpg",
+    "answer": "Bacilli",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "These organisms are rod-shaped ('like a hot dog'), which is the bacillus shape. Cocci are spherical, vibrios are curved/comma-shaped, spirilla are wavy, and spirochetes are tightly twisted like screw threads."
+  },
+  {
+    "id": "mianat-029",
+    "imageRef": "mianat-029_brick_56_06.jpg",
+    "answer": "Vibrio",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "Gram-negative (pink/red) comma-shaped bacilli are characteristic of Vibrio spp. Neisseria are gram-negative diplococci; Streptococcus, Staphylococcus, and Clostridium are gram-positive."
+  },
+  {
+    "id": "mianat-030",
+    "imageRef": "mianat-030_brick_56_08.jpg",
+    "answer": "Sabouraud agar",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "Sabouraud dextrose agar is selective for fungi such as Candida spp.: its acidic pH and antibiotics suppress bacterial normal flora, allowing fungal pathogens to be isolated from heavily colonized sites."
+  },
+  {
+    "id": "mianat-031",
+    "imageRef": "mianat-031_brick_56_11.jpg",
+    "answer": "Hemolysis patterns",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "A clear zone means beta (complete) hemolysis, as seen with S. pyogenes. Alpha hemolysis (partial, greenish/brown) is typical of S. pneumoniae and the viridans streptococci; gamma (no hemolysis) is typical of Enterococcus faecalis."
+  },
+  {
+    "id": "mianat-032",
+    "imageRef": "mianat-032_brick_56_12.jpg",
+    "answer": "TSI slant",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "Triple sugar iron (TSI) agar contains glucose, lactose, and sucrose plus iron salts. Fermentation turns it yellow, gas causes bubbles or cracks, and H2S forms a black precipitate."
+  },
+  {
+    "id": "mianat-033",
+    "imageRef": "mianat-033_brick_56_13.jpg",
+    "answer": "H2S on TSI",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "The black butt shows H2S production. A lactose non-fermenting, oxidase-negative, H2S-positive gram-negative bacillus points to Salmonella (as in the brick's potluck case). Shigella is H2S negative, Pseudomonas is oxidase positive, and E. coli and Klebsiella ferment lactose."
+  },
+  {
+    "id": "mianat-034",
+    "imageRef": "mianat-034_brick_56_15.jpg",
+    "answer": "Mannitol salt agar",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "On mannitol salt agar, 7.5% NaCl selects for staphylococci, and phenol red turns yellow when acid is produced by mannitol fermentation. S. aureus ferments mannitol; S. epidermidis and S. saprophyticus do not, so their area stays pink."
+  },
+  {
+    "id": "mianat-035",
+    "imageRef": "mianat-035_brick_56_16.jpg",
+    "answer": "MacConkey agar",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "MacConkey agar is selective (bile salts and crystal violet inhibit gram-positives) and differential (lactose plus neutral red): lactose fermenters turn pink, non-fermenters stay colorless."
+  },
+  {
+    "id": "mianat-036",
+    "imageRef": "mianat-036_brick_56_17.jpg",
+    "answer": "E. coli on EMB",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "On EMB agar, lactose fermenters stain purple to black, but E. coli is the classic exception: its rapid lactose fermentation produces a distinctive metallic green sheen."
+  },
+  {
+    "id": "mianat-037",
+    "imageRef": "mianat-037_brick_56_18.jpg",
+    "answer": "Klebsiella on EMB",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "EMB agar inhibits most gram-positive bacteria and contains lactose. Acid from lactose fermentation reacts with eosin Y and methylene blue, turning colonies purple or black, as with Klebsiella (a fast lactose fermenter)."
+  },
+  {
+    "id": "mianat-038",
+    "imageRef": "mianat-038_brick_56_20.jpg",
+    "answer": "Catalase test",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "Catalase breaks H2O2 into water and oxygen (bubbles). All Staphylococcus spp. are catalase positive and all Streptococcus spp. are catalase negative."
+  },
+  {
+    "id": "mianat-039",
+    "imageRef": "mianat-039_brick_56_21.jpg",
+    "answer": "Coagulase test",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "Coagulase converts fibrinogen in serum to fibrin, forming a clot. Among the staphylococci, only S. aureus is coagulase positive."
+  },
+  {
+    "id": "mianat-040",
+    "imageRef": "mianat-040_brick_56_22.jpg",
+    "answer": "Optochin disk",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "With an optochin disk, a zone of no growth means susceptibility. S. pneumoniae is optochin sensitive, while viridans streptococci are optochin resistant and grow up to the disk."
+  },
+  {
+    "id": "mianat-041",
+    "imageRef": "mianat-041_brick_56_23.jpg",
+    "answer": "Bile solubility",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "Clearing means the bacteria were lysed (bile soluble), which is characteristic of S. pneumoniae. Viridans streptococci, S. gallolyticus (formerly S. bovis), and Enterococcus resist bile and leave the medium cloudy."
+  },
+  {
+    "id": "mianat-042",
+    "imageRef": "mianat-042_brick_56_25.jpg",
+    "answer": "Oxidase test",
+    "category": "Lab & Diagnostics",
+    "brick": "Gram-Positive and Negative Algorithms",
+    "explanation": "The oxidase test detects cytochrome c oxidase, which turns the reagent blue or dark purple. Pseudomonas spp. are oxidase positive, while most Enterobacteriaceae are oxidase negative."
+  },
+  {
+    "id": "mianat-043",
+    "imageRef": "mianat-043_brick_57_01.jpg",
+    "answer": "Staphylococci",
+    "category": "Lab & Diagnostics",
+    "brick": "Staphylococci",
+    "explanation": "Staphylococci are gram-positive (purple) spherical cocci that cluster together like bunches of grapes. Streptococci and enterococci are also gram-positive cocci but form chains or pairs, Neisseria are gram-negative diplococci, and Clostridium are gram-positive rods."
+  },
+  {
+    "id": "mianat-044",
+    "imageRef": "mianat-044_brick_57_02.jpg",
+    "answer": "Catalase test",
+    "category": "Lab & Diagnostics",
+    "brick": "Staphylococci",
+    "explanation": "Bubbling (O2 release) on adding H2O2 is a positive catalase test. All staphylococci are catalase positive, which distinguishes them from catalase-negative Streptococcus and Enterococcus species. It does not separate staphylococcal species from one another."
+  },
+  {
+    "id": "mianat-045",
+    "imageRef": "mianat-045_brick_57_04.jpg",
+    "answer": "Beta hemolysis",
+    "category": "Lab & Diagnostics",
+    "brick": "Staphylococci",
+    "explanation": "The pale, clear zone around the colonies is beta-hemolysis (complete lysis of red cells). Among the clinically important staphylococci, only S. aureus is beta-hemolytic; S. epidermidis and S. saprophyticus are gamma (non)-hemolytic."
+  },
+  {
+    "id": "mianat-046",
+    "imageRef": "mianat-046_brick_57_05.jpg",
+    "answer": "Mannitol salt agar",
+    "category": "Lab & Diagnostics",
+    "brick": "Staphylococci",
+    "explanation": "Mannitol salt agar (7.5% NaCl) is selective for staphylococci. S. aureus ferments mannitol and turns the agar yellow; other staphylococci such as S. epidermidis do not ferment mannitol and leave the medium pink/red."
+  },
+  {
+    "id": "mianat-047",
+    "imageRef": "mianat-047_brick_57_09.jpg",
+    "answer": "Disk diffusion",
+    "category": "Lab & Diagnostics",
+    "brick": "Staphylococci",
+    "explanation": "In this antibiotic resistance assay, bacteria that do not grow around a disk are susceptible to that drug, whereas growth right up to a disk means resistance. Antibiotic resistance (e.g., MRSA, VRSA) is a major concern with S. aureus."
+  },
+  {
+    "id": "mianat-048",
+    "imageRef": "mianat-048_brick_58_01.jpg",
+    "answer": "Streptococci in chains",
+    "category": "Lab & Diagnostics",
+    "brick": "Streptococci and Enterococci",
+    "explanation": "Streptococci are gram-positive, catalase-negative cocci arranged in pairs or chains. The chains help distinguish them visually from the grape-like clusters of catalase-positive staphylococci."
+  },
+  {
+    "id": "mianat-049",
+    "imageRef": "mianat-049_brick_58_02.jpg",
+    "answer": "Staphylococci",
+    "category": "Lab & Diagnostics",
+    "brick": "Streptococci and Enterococci",
+    "explanation": "Gram-positive cocci in grape-like clusters are staphylococci. Streptococci form pairs or chains, enterococci form pairs and short chains, and Neisseria/Moraxella are gram-negative diplococci."
+  },
+  {
+    "id": "mianat-050",
+    "imageRef": "mianat-050_brick_58_03.jpg",
+    "answer": "Lancet-shaped diplococci",
+    "category": "Lab & Diagnostics",
+    "brick": "Streptococci and Enterococci",
+    "explanation": "S. pneumoniae appears as lancet-shaped gram-positive diplococci, with a pointed end on each coccus. S. pyogenes and S. agalactiae form chains, S. aureus forms clusters, and enterococci appear as a mix of pairs and chains."
+  },
+  {
+    "id": "mianat-051",
+    "imageRef": "mianat-051_brick_58_04.jpg",
+    "answer": "Enterococcus",
+    "category": "Lab & Diagnostics",
+    "brick": "Streptococci and Enterococci",
+    "explanation": "Enterococcus spp. appear as a combination of diplococci and chains, are nonhemolytic, and cause urinary, biliary, wound infections and subacute endocarditis. Unlike S. gallolyticus (group D strep), which also grows in bile, only enterococci grow in 6.5% NaCl."
+  },
+  {
+    "id": "mianat-052",
+    "imageRef": "mianat-052_brick_58_05.jpg",
+    "answer": "Hemolysis patterns",
+    "category": "Lab & Diagnostics",
+    "brick": "Streptococci and Enterococci",
+    "explanation": "Alpha-hemolysis is incomplete RBC destruction, seen with S. pneumoniae and viridans streptococci. S. pyogenes and S. agalactiae are beta-hemolytic (complete clearing, center streak), and enterococci are generally nonhemolytic (gamma, right streak)."
+  },
+  {
+    "id": "mianat-053",
+    "imageRef": "mianat-053_brick_58_07.jpg",
+    "answer": "PYR test",
+    "category": "Lab & Diagnostics",
+    "brick": "Streptococci and Enterococci",
+    "explanation": "The PYR (pyrrolidonyl arylamidase) test turns pink/cherry-red when the enzyme hydrolyzes the substrate. It is used for presumptive identification of S. pyogenes (group A strep) and Enterococcus spp."
+  },
+  {
+    "id": "mianat-054",
+    "imageRef": "mianat-054_brick_59_01.jpg",
+    "answer": "N. meningitidis",
+    "category": "Lab & Diagnostics",
+    "brick": "Neisseria meningitidis and Haemophilus influenzae",
+    "explanation": "N. meningitidis is a gram-negative (red) diplococcus described as kidney bean-shaped, often seen within neutrophils. S. pneumoniae is a gram-positive lancet-shaped diplococcus, H. influenzae is a gram-negative coccobacillus, and S. agalactiae/S. aureus are gram-positive."
+  },
+  {
+    "id": "mianat-055",
+    "imageRef": "mianat-055_brick_59_03.jpg",
+    "answer": "H. influenzae",
+    "category": "Lab & Diagnostics",
+    "brick": "Neisseria meningitidis and Haemophilus influenzae",
+    "explanation": "H. influenzae is a small, nonmotile, gram-negative coccobacillus that requires factors X (hematin) and V (NAD), so it grows on chocolate agar but not on blood agar. It causes epiglottitis, meningitis, otitis media, and pneumonia."
+  },
+  {
+    "id": "mianat-056",
+    "imageRef": "mianat-056_brick_59_04.jpg",
+    "answer": "Chocolate agar",
+    "category": "Lab & Diagnostics",
+    "brick": "Neisseria meningitidis and Haemophilus influenzae",
+    "explanation": "Chocolate agar is blood agar heated to lyse the red cells, releasing factors X and V that fastidious H. influenzae requires. Thayer-Martin agar is chocolate agar with added antibiotics and antifungals, used to select Neisseria from non-sterile sites."
+  },
+  {
+    "id": "mianat-057",
+    "imageRef": "mianat-057_brick_59_05.jpg",
+    "answer": "Satellite phenomenon",
+    "category": "Lab & Diagnostics",
+    "brick": "Neisseria meningitidis and Haemophilus influenzae",
+    "explanation": "This is the satellite phenomenon. H. influenzae cannot lyse RBCs to obtain X (hematin) and V (NAD) factors, so it cannot grow on plain blood agar, but it grows next to beta-hemolytic bacteria such as S. aureus, which lyse red cells and release those factors."
+  },
+  {
+    "id": "mianat-058",
+    "imageRef": "mianat-058_brick_60_01.jpg",
+    "answer": "Clostridium rods",
+    "category": "Lab & Diagnostics",
+    "brick": "Clostridia",
+    "explanation": "Clostridia are large gram-positive (purple), obligately anaerobic rods that are catalase and oxidase negative. Staphylococci and streptococci are gram-positive cocci, and Haemophilus and Neisseria are gram-negative."
+  },
+  {
+    "id": "mianat-059",
+    "imageRef": "mianat-059_brick_60_02.jpg",
+    "answer": "Double-zone hemolysis",
+    "category": "Lab & Diagnostics",
+    "brick": "Clostridia",
+    "explanation": "C. perfringens produces a characteristic double ring of beta-hemolysis on blood agar, reflecting its multiple toxins. It causes gas gangrene (clostridial myonecrosis), driven mainly by alpha toxin, a lecithinase."
+  },
+  {
+    "id": "mianat-060",
+    "imageRef": "mianat-060_brick_60_03.jpg",
+    "answer": "Drumstick spores",
+    "category": "Lab & Diagnostics",
+    "brick": "Clostridia",
+    "explanation": "Clostridia are spore-forming gram-positive rods, and their spores have a drumstick appearance. Spores let clostridia survive adverse conditions, including oxygen exposure. None of the cocci or gram-negative organisms listed form spores."
+  },
+  {
+    "id": "mianat-061",
+    "imageRef": "mianat-061_brick_64_03.jpg",
+    "answer": "Green metallic sheen",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 1 of 2)",
+    "explanation": "On EMB agar, lactose fermenters generally stain black, but E. coli is the exception: it forms colonies with a distinctive green metallic sheen. Klebsiella also ferments lactose but lacks the sheen; Proteus, Salmonella and Shigella are non-lactose fermenters."
+  },
+  {
+    "id": "mianat-062",
+    "imageRef": "mianat-062_brick_64_04.jpg",
+    "answer": "Beta hemolysis",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 1 of 2)",
+    "explanation": "The image shows beta hemolysis (complete clearing of red cells around the colonies). Among the Enterobacteriaceae covered, only E. coli is beta-hemolytic, although hemolysis is not normally used to tell family members apart."
+  },
+  {
+    "id": "mianat-063",
+    "imageRef": "mianat-063_brick_64_05.jpg",
+    "answer": "H2S on TSI",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 1 of 2)",
+    "explanation": "The black precipitate is ferrous sulfide, formed when H2S reacts with the ferrous ions in TSI agar. Salmonella, Proteus and Citrobacter produce H2S; E. coli and K. pneumoniae do not, and Shigella is H2S negative."
+  },
+  {
+    "id": "mianat-064",
+    "imageRef": "mianat-064_brick_65_05.jpg",
+    "answer": "Positive indole test",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 2 of 2)",
+    "explanation": "This is the indole test: a red color after reagent is added means the organism produced indole from tryptophan. E. coli is indole positive. K. pneumoniae, Enterobacter and P. mirabilis are indole negative, which helps separate E. coli from the other lactose fermenters."
+  },
+  {
+    "id": "mianat-065",
+    "imageRef": "mianat-065_brick_65_06.jpg",
+    "answer": "Mucoid Klebsiella colonies",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 2 of 2)",
+    "explanation": "The pink color means lactose fermentation. The thick, slimy look comes from the large mucoid capsule of K. pneumoniae. Being nonmotile and indole negative separates it from E. coli, and Proteus, Salmonella and Shigella do not ferment lactose."
+  },
+  {
+    "id": "mianat-066",
+    "imageRef": "mianat-066_brick_65_07.jpg",
+    "answer": "E. coli on MacConkey",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 2 of 2)",
+    "explanation": "Pink colonies on MacConkey mean a fast lactose fermenter. Motility, a positive indole test and the absence of the slimy mucoid capsule point to E. coli rather than K. pneumoniae."
+  },
+  {
+    "id": "mianat-067",
+    "imageRef": "mianat-067_brick_65_11.jpg",
+    "answer": "Serratia red pigment",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 2 of 2)",
+    "explanation": "Some Serratia species produce a red pigment (prodigiosin), which distinguishes Serratia from Citrobacter, the other slow lactose fermenter. Not all Serratia strains are pigmented. Serratia mainly causes opportunistic infections in hospitalized or immunocompromised patients."
+  },
+  {
+    "id": "mianat-068",
+    "imageRef": "mianat-068_brick_65_12.jpg",
+    "answer": "Serratia biofilm",
+    "category": "Lab & Diagnostics",
+    "brick": "Enterobacteriaceae (Part 2 of 2)",
+    "explanation": "Serratia is widespread in soil and water. Pigment-producing strains make a red pigment, which shows when a biofilm, such as the pink film on shower grout, contains Serratia."
+  },
+  {
+    "id": "mianat-069",
+    "imageRef": "mianat-069_brick_66_06.jpg",
+    "answer": "Salmonella on MacConkey",
+    "category": "Lab & Diagnostics",
+    "brick": "Salmonella, Shigella, and Campylobacter spp.",
+    "explanation": "The bottom colonies are colorless, so the organism does not ferment lactose. A motile, H2S-producing non-lactose fermenter linked to poultry is Salmonella. Shigella is nonmotile and H2S negative, and E. coli and Klebsiella ferment lactose (pink)."
+  },
+  {
+    "id": "mianat-070",
+    "imageRef": "mianat-070_brick_66_07.jpg",
+    "answer": "Salmonella on TSI",
+    "category": "Lab & Diagnostics",
+    "brick": "Salmonella, Shigella, and Campylobacter spp.",
+    "explanation": "The yellow butt shows glucose fermentation (acid), and the black precipitate shows H2S production. Salmonella ferments glucose, makes H2S and is motile. Shigella shows no black precipitate and is nonmotile, which separates the two."
+  },
+  {
+    "id": "mianat-071",
+    "imageRef": "mianat-071_brick_66_09.jpg",
+    "answer": "Campylobacter",
+    "category": "Lab & Diagnostics",
+    "brick": "Salmonella, Shigella, and Campylobacter spp.",
+    "explanation": "The stain shows gram-negative curved, comma- or S-shaped rods. That shape separates Campylobacter from Salmonella and Shigella, which are straight rods. C. jejuni is the most common cause of bacterial diarrhea in the U.S. and the most common cause of Guillain-Barre syndrome."
+  },
+  {
+    "id": "mianat-072",
+    "imageRef": "mianat-072_brick_67_03.jpg",
+    "answer": "Polar flagellum",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "Pseudomonas spp. are gram-negative, non-spore-forming bacilli that are motile by a single polar flagellum. Acinetobacter, by contrast, is a non-motile coccobacillus."
+  },
+  {
+    "id": "mianat-073",
+    "imageRef": "mianat-073_brick_67_05.jpg",
+    "answer": "Pseudomonas colonies",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "P. aeruginosa makes two pigments that give its colonies a blue-to-aqua color. Pyocyanin is the blue pigment that is toxic to cells, including leukocytes. Pyoverdine is the yellow, fluorescent, iron-binding pigment."
+  },
+  {
+    "id": "mianat-074",
+    "imageRef": "mianat-074_brick_67_06.jpg",
+    "answer": "Pyoverdine fluorescence",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "Pyoverdine is a yellow, fluorescent pigment of P. aeruginosa that binds iron. It makes Pseudomonas cultures and infected tissue fluoresce under UV light. Pyocyanin is the blue, cell-toxic pigment."
+  },
+  {
+    "id": "mianat-075",
+    "imageRef": "mianat-075_brick_67_10.jpg",
+    "answer": "Burn wound fluorescence",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "P. aeruginosa produces pyoverdine, a fluorescent pigment, so infected burn tissue can glow under UV light. Pseudomonas is a common cause of infection in large third-degree burns."
+  },
+  {
+    "id": "mianat-076",
+    "imageRef": "mianat-076_brick_67_18.jpg",
+    "answer": "Mucoid Pseudomonas",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "Mucoid strains of P. aeruginosa make an alginate capsule that helps them adhere to and colonize mucus. They are classically isolated from the lungs of cystic fibrosis patients with chronic infection."
+  },
+  {
+    "id": "mianat-077",
+    "imageRef": "mianat-077_brick_67_24.jpg",
+    "answer": "Pseudomonas culture",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "Pseudomonas spp. are gram-negative, non-lactose-fermenting, oxidase-positive bacilli whose colonies are aqua or green because of pyocyanin and pyoverdine. Lactose fermentation would point to E. coli or K. pneumoniae, and an oxidase-negative result to Salmonella or Shigella. Acinetobacter colonies are colorless or creamy."
+  },
+  {
+    "id": "mianat-078",
+    "imageRef": "mianat-078_brick_67_25.jpg",
+    "answer": "Mucoid strain",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "Mucoid strains make an alginate capsule, a polysaccharide that absorbs many times its weight in water and helps the bacteria cling to and colonize mucus. These strains are classically associated with chronic cystic fibrosis lung infection."
+  },
+  {
+    "id": "mianat-079",
+    "imageRef": "mianat-079_brick_67_27.jpg",
+    "answer": "Acinetobacter",
+    "category": "Lab & Diagnostics",
+    "brick": "Pseudomonas species and other closely related bacteria",
+    "explanation": "Acinetobacter spp. are gram-negative coccobacilli that are non-motile and oxidase-negative, with colorless or creamy colonies. A. baumannii is a leading cause of ventilator-associated pneumonia and often shows multidrug resistance, including carbapenem resistance. Pseudomonas is a motile, oxidase-positive, pigmented bacillus."
+  },
+  {
+    "id": "mianat-080",
+    "imageRef": "mianat-080_brick_68_05.jpg",
+    "answer": "Fried egg colonies",
+    "category": "Lab & Diagnostics",
+    "brick": "Atypical Bacteria",
+    "explanation": "M. pneumoniae has no cell wall and has sterols in its membrane, so it needs sterols in the medium and forms 'fried egg' colonies (mnemonic: 'eggs contain cholesterol'). Culture is slow and rarely done; PCR is the preferred diagnostic test."
+  },
+  {
+    "id": "mianat-081",
+    "imageRef": "mianat-081_brick_68_07.jpg",
+    "answer": "Chlamydial inclusions",
+    "category": "Lab & Diagnostics",
+    "brick": "Atypical Bacteria",
+    "explanation": "Chlamydia spp. are obligate intracellular bacteria that replicate inside an endosome and form large inclusionary bodies. These inclusions can be stained with iodine, Giemsa, or immunofluorescent stains. Chlamydiae do not Gram stain, and in practice PCR (nucleic acid amplification) is the most common way to identify them."
+  },
+  {
+    "id": "mianat-082",
+    "imageRef": "mianat-082_brick_68_14.jpg",
+    "answer": "BCYE agar",
+    "category": "Lab & Diagnostics",
+    "brick": "Atypical Bacteria",
+    "explanation": "L. pneumophila is a fastidious gram-negative rod that needs iron and cysteine and grows on buffered charcoal yeast extract (BCYE, 'charcoal') agar. Legionnaires' disease often brings high fever, diarrhea, and hyponatremia, and is acquired from contaminated water sources. A urine antigen test (serotype 1) and PCR give rapid diagnosis."
+  },
+  {
+    "id": "mianat-083",
+    "imageRef": "mianat-083_brick_68_15.jpg",
+    "answer": "Legionella silver stain",
+    "category": "Lab & Diagnostics",
+    "brick": "Atypical Bacteria",
+    "explanation": "Legionella has a gram-negative structure but stains very poorly with the Gram stain; a silver stain can be used on sputum. Mycoplasma has no cell wall and Chlamydia is obligately intracellular, so neither shows up as rods free in sputum."
+  },
+  {
+    "id": "mianat-084",
+    "imageRef": "mianat-084_brick_69_09.jpg",
+    "answer": "Morula",
+    "category": "Lab & Diagnostics",
+    "brick": "Bacterial Tick-borne Diseases",
+    "explanation": "Ehrlichia spp. are small, gram-negative, obligate intracellular bacteria with a tropism for monocytes and macrophages. Clusters of bacteria inside cell vacuoles form mulberry-like aggregates called morulae. These help distinguish ehrlichiosis from Lyme disease and RMSF, but they are not reliable enough for diagnosis on their own; serology usually confirms it. Ehrlichiosis is spread by the lone star tick and the blacklegged tick."
   }
 ]
