@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import { BrandBadge, BrandCard, LogoMark } from './components/Brand'
+import { BrandBadge, BrandCard } from './components/Brand'
+import { SiteHeader, lectureName } from './components/SiteHeader'
 
 type Item = { id: string; imageRef: string; answer: string; brick?: string; category?: string; explanation?: string }
 type Mode = 'easy' | 'medium' | 'hard'
@@ -95,20 +96,20 @@ export default function App() {
     ]
     return (
       <Shell>
-        <BrandCard />
-        <div className="mt-6 rounded-2xl border border-slate-700 bg-slate-800/40 p-6">
-          <h1 className="flex items-center gap-3 text-2xl font-bold text-slate-100"><LogoMark size={30} /> Anatomy ID</h1>
+        <div className="rounded-2xl border border-slate-700 bg-slate-800/40 p-4 sm:p-6">
+          <h2 className="text-xl font-bold text-slate-100">Identify the structure</h2>
           <p className="mt-2 text-slate-300">A structure is shown — identify it. {items.length} structures. Pick a difficulty:</p>
           <div className="mt-5 grid gap-3 sm:grid-cols-3">
             {modes.map((x) => (
               <button key={x.m} onClick={() => start(x.m)}
-                className="rounded-xl border border-slate-600 bg-slate-800 p-4 text-left transition hover:border-sky-400">
+                className="min-h-10 rounded-xl border border-slate-600 bg-slate-800 p-4 text-left transition hover:border-sky-400">
                 <div className="text-lg font-bold text-sky-300">{x.name}</div>
                 <div className="mt-1 text-sm text-slate-400">{x.desc}</div>
               </button>
             ))}
           </div>
         </div>
+        <BrandCard kind="game" />
       </Shell>
     )
   }
@@ -118,10 +119,10 @@ export default function App() {
     return (
       <Shell>
         <div className="rounded-2xl border border-slate-700 bg-slate-800/40 p-8 text-center">
-          <h1 className="text-2xl font-bold text-slate-100">Done! 🎉</h1>
+          <h2 className="text-2xl font-bold text-slate-100">Done!</h2>
           <p className="mt-3 text-lg text-slate-300">{correct}/{queue.length} correct · <span className="font-semibold text-teal-300">{pct}%</span> <span className="text-slate-400">({mode})</span></p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <button onClick={() => start(mode)} className="rounded-xl bg-gradient-to-br from-sky-400 to-teal-400 px-6 py-3 font-semibold text-slate-900 hover:opacity-90">Play again</button>
+            <button onClick={() => start(mode)} className="rounded-xl at-btn-primary px-6 py-3 font-semibold">Play again</button>
             <button onClick={() => setMode(null)} className="rounded-xl border border-slate-600 bg-slate-800 px-6 py-3 font-semibold text-slate-200 hover:border-slate-400">Change mode</button>
           </div>
         </div>
@@ -132,7 +133,7 @@ export default function App() {
   return (
     <Shell>
       <div className="mb-3 flex items-center justify-between gap-3">
-        <button onClick={() => setMode(null)} className="flex items-center gap-2 text-sm font-bold text-slate-100 hover:text-sky-300"><LogoMark size={22} /> Anatomy ID</button>
+        <button onClick={() => setMode(null)} className="flex min-h-10 items-center gap-1 text-sm font-bold text-slate-100 hover:text-sky-300">← Change mode</button>
         <span className="text-sm text-slate-400 capitalize">{mode} · {i + 1}/{queue.length} · {correct}✓</span>
       </div>
 
@@ -152,7 +153,7 @@ export default function App() {
             }
             return (
               <button key={c} disabled={revealed} onClick={() => submitChoice(c)}
-                className={`rounded-xl border px-4 py-3 text-left font-medium transition ${cls}`}>{c}</button>
+                className={`at-wrap rounded-xl border px-4 py-3 text-left font-medium transition ${cls}`}>{c}</button>
             )
           })}
         </div>
@@ -161,8 +162,8 @@ export default function App() {
           {!revealed ? (
             <form onSubmit={(e) => { e.preventDefault(); submitTyped() }} className="flex gap-2">
               <input autoFocus value={typed} onChange={(e) => setTyped(e.target.value)} placeholder="Type the structure name…"
-                className="flex-1 rounded-xl border border-slate-600 bg-slate-800 px-4 py-3 text-slate-100 outline-none focus:border-sky-400" />
-              <button type="submit" className="rounded-xl bg-gradient-to-br from-sky-400 to-teal-400 px-5 py-3 font-semibold text-slate-900 hover:opacity-90">Check</button>
+                className="min-w-0 flex-1 rounded-xl border border-slate-600 bg-slate-800 px-4 py-3 text-slate-100 outline-none focus:border-sky-400" />
+              <button type="submit" className="shrink-0 rounded-xl at-btn-primary px-5 py-3 font-semibold">Check</button>
             </form>
           ) : (
             <div className={`rounded-xl border px-4 py-3 ${accept(typed, cur.answer) ? 'border-teal-400 bg-teal-500/15' : 'border-red-500 bg-red-500/10'}`}>
@@ -177,9 +178,9 @@ export default function App() {
       {revealed && (
         <div className="mt-4 rounded-xl border border-teal-400/40 bg-teal-500/10 p-4">
           <div className="text-base font-bold text-teal-300">{cur.answer}</div>
-          {cur.brick && <div className="mt-0.5 text-xs text-slate-400">{cur.brick}</div>}
+          {cur.brick && <div className="mt-0.5 text-xs text-slate-400 at-wrap">{lectureName(cur.brick)}</div>}
           {cur.explanation && <p className="mt-2 text-sm leading-snug text-slate-300">{cur.explanation}</p>}
-          <button onClick={next} className="mt-3 rounded-xl bg-gradient-to-br from-sky-400 to-teal-400 px-6 py-2.5 font-semibold text-slate-900 hover:opacity-90">
+          <button onClick={next} className="mt-3 rounded-xl at-btn-primary px-6 py-2.5 font-semibold">
             {i + 1 < queue.length ? 'Next →' : 'See results →'}
           </button>
         </div>
@@ -190,9 +191,10 @@ export default function App() {
 
 function Shell({ children }: { children: React.ReactNode }) {
   return (
-    <div className="min-h-screen px-4 py-8">
+    <div className="min-h-screen">
       <BrandBadge />
-      <div className="mx-auto max-w-2xl">{children}</div>
+      <SiteHeader />
+      <div className="mx-auto max-w-2xl px-4 py-6 sm:py-8">{children}</div>
     </div>
   )
 }
